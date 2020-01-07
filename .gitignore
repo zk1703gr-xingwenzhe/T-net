@@ -1,0 +1,6 @@
+/unpackage
+/.idea
+/.vagrant
+manifest.json
+
+store/module/websocket/new_file.js

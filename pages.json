@@ -1,0 +1,598 @@
+{
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom"
+				// "enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+		//登录注册模块
+		{
+			"path": "pages/home/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/login/register",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/login/lookup",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		
+		// 登录模块结束
+		
+		{
+			"path": "pages/home/member/Alipaynum",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/identity",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/kefu",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/home/member/Language",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/Money",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/paymethod",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/security",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/Wechat",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/zaixiankefu",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/Myshequ",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/bank",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/home/member/invite_friend",//邀请好友
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/notice",//新闻公告
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/notice_details",//新闻详情
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path": "pages/home/member/security_center",//安全中心
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/NFC",//NFC
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/set_gestures",
+			"style": {
+				// "navigationBarTitleText": "shoushi"//设置手势密码
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/reset_gestures",
+			"style": {
+				// "navigationBarTitleText": "shoushi"//重置手势密码
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/member/news",
+			"style": {
+				// "navigationBarTitleText": "shoushi"//消息
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/ico",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/btn",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/color",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/boxshadow",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/animate",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/footmenu",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/mask",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/roll",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/kline",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/sideslip",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/botdialog",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+    },
+    {
+			"path": "pages/index/http",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/skeleton",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},	
+		{
+			"path": "pages/index/slideList",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},	
+		
+		{
+			"path": "pages/home/homepage/homePage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/homepage/web_notice",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path": "pages/home/quotation/index",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "行情",
+				// "enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/home/transaction/index",
+			"style": {
+				"navigationStyle": "custom",
+				// "navigationBarTitleText": "交易",
+				"navigationBarBackgroundColor": "#000"
+				// "enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/home/transaction/dealRecord",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "交易记录",
+				// "enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/home/transaction/entrust",
+			"style": {
+				"navigationStyle": "custom"
+				// 币 币交易委托
+			}
+		},
+		{
+			"path": "pages/home/transaction/entrustFb",
+			"style": {
+				"navigationStyle": "custom"
+				// 法币交易委托
+				
+			}
+		},
+		{
+			"path": "pages/home/transaction/payment",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "未付款",
+				// "enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/home/transaction/appealing",
+			"style": {
+				"navigationBarTitleText":"申诉"
+			}
+		},{
+			"path": "pages/home/transaction/get_the_coin",
+			"style": {
+				"navigationStyle": "custom"
+				//卖出下单 ，订单详情页面
+			}
+		},
+		{
+			"path": "pages/home/transaction/dealmodule/checkFullStopPrice",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/transaction/dealmodule/CNYdeal",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/transaction/dealmodule/limitedPrice",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/transaction/dealmodule/marketPrice",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/contract/contract",
+			"style": {
+				// "navigationBarTitleText": "合约",
+				// "enablePullDownRefresh": true //开启下拉刷新
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/contract/opening_record",
+			"style": {
+				// "navigationBarTitleText": "合约记录",
+				// "enablePullDownRefresh": true //开启下拉刷新
+				"navigationStyle": "custom"
+			}
+		},
+		//资产部分
+		{
+			// 资产
+			"path": "pages/home/property/property",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/Subpages/CoinCharging",
+			"style": {
+				// "navigationBarTitleText": "充币"
+				"navigationStyle": "custom"
+			}
+		},
+		{ //币币账户
+			"path": "pages/home/property/Subpages/account",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/home/property/Subpages/Transfer",
+			"style": {
+				// "navigationBarTitleText": "划转"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/flash_against/flash_record",
+			"style": {
+				// "navigationBarTitleText": "记录"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/flash_against/FlashExchange",
+			"style": {
+				// "navigationBarTitleText": "闪兑"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/flash_against/transfer_accounts",
+			"style": {
+				// "navigationBarTitleText": "转账"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/flash_against/Receivables",
+			"style": {
+				// "navigationBarTitleText": "收款码"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/Subpages/TransferDetails",
+			"style": {
+				// "navigationBarTitleText": "转账"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/Subpages/WithdrawMoney",
+			"style": {
+				// "navigationBarTitleText": "提币"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/Subpages/gestures",
+			"style": {
+				// "navigationBarTitleText": "手势"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/Subpages/property_wallet",
+			"style": {
+				// "navigationBarTitleText": "创建钱包"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/orepool/index",
+			"style": {
+				// "navigationBarTitleText": "矿池首页//理财首页"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/orepool/money_management",
+			"style": {
+				// "navigationBarTitleText": "理财兑换"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/orepool/assets_record",
+			"style": {
+				// "navigationBarTitleText": "资产记录"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/orepool/credit_record",
+			"style": {
+				// "navigationBarTitleText": "额度记录"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/orepool/release_the_record",
+			"style": {
+				// "navigationBarTitleText": "释放记录"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/orepool/get_the_record",
+			"style": {
+				// "navigationBarTitleText": "领取记录"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/orepool/share_reword",
+			"style": {
+				// "navigationBarTitleText": "分享奖励"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/property/Subpages/share_reword",
+			"style": {
+				// "navigationBarTitleText": "分享奖励"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/wallet/index",
+			"style": {
+				// "navigationBarTitleText": "钱包首页"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/wallet/setdealpwd",
+			"style": {
+				// "navigationBarTitleText": "设置密码"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/wallet/wallet_type",
+			"style": {
+				// "navigationBarTitleText": "选择钱包类型"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/wallet/wallet_details",
+			"style": {
+				// "navigationBarTitleText": "选择钱包类型"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/wallet/financial_details",
+			"style": {
+				// "navigationBarTitleText": "财务明细"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/wallet/gathering",
+			"style": {
+				// "navigationBarTitleText": "收款"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/wallet/transfer_accounts",
+			"style": {
+				// "navigationBarTitleText": "z转账"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/wallet/transfer_details",
+			"style": {
+				// "navigationBarTitleText": "转账详情"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/navbar",
+			"style": {
+				// "navigationBarTitleText": "K线测试"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/drawer",
+			"style": {
+				// "navigationBarTitleText": "K线测试"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/kline/index",
+			"style": {
+				// "navigationBarTitleText": "K线测试"
+				"navigationStyle": "custom"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "#F8F8F8"
+	}
+	,
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "text", //模式名称
+			"path": "pages/home/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+
+}
